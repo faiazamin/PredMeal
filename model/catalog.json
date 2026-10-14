@@ -1,0 +1,482 @@
+[
+  {
+    "id": "chicken_omelette",
+    "name": "Chicken omelette",
+    "ingredients": ["chicken", "onion", "herbs"],
+    "cook_minutes": 10,
+    "meal_periods": ["early_morning", "morning"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.8,
+    "time_affinity": {
+      "early_morning": 0.9,
+      "morning": 1.0,
+      "noon": 0.3,
+      "afternoon": 0.2,
+      "evening": 0.25,
+      "night": 0.2,
+      "midnight": 0.15,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "beef_breakfast_skillet",
+    "name": "Beef breakfast skillet",
+    "ingredients": ["beef", "potato", "onion", "bell_pepper"],
+    "cook_minutes": 20,
+    "meal_periods": ["morning"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.55,
+    "time_affinity": {
+      "early_morning": 0.7,
+      "morning": 1.0,
+      "noon": 0.35,
+      "afternoon": 0.2,
+      "evening": 0.3,
+      "night": 0.2,
+      "midnight": 0.15,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "turkey_hash",
+    "name": "Turkey hash",
+    "ingredients": ["turkey", "potato", "onion", "garlic"],
+    "cook_minutes": 18,
+    "meal_periods": ["early_morning", "morning"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.5,
+    "time_affinity": {
+      "early_morning": 0.85,
+      "morning": 1.0,
+      "noon": 0.3,
+      "afternoon": 0.2,
+      "evening": 0.25,
+      "night": 0.2,
+      "midnight": 0.15,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "spinach_scramble",
+    "name": "Spinach scramble",
+    "ingredients": ["spinach", "mushroom", "onion", "herbs"],
+    "cook_minutes": 8,
+    "meal_periods": ["early_morning", "morning"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.6,
+    "time_affinity": {
+      "early_morning": 0.9,
+      "morning": 1.0,
+      "noon": 0.25,
+      "afternoon": 0.2,
+      "evening": 0.2,
+      "night": 0.15,
+      "midnight": 0.1,
+      "latenight": 0.1
+    }
+  },
+  {
+    "id": "chicken_fried_rice",
+    "name": "Chicken fried rice",
+    "ingredients": ["chicken", "rice", "onion", "garlic", "carrot", "peas", "corn"],
+    "cook_minutes": 20,
+    "meal_periods": ["afternoon", "evening"],
+    "low_sugar": true,
+    "low_sodium": false,
+    "popularity": 0.9,
+    "time_affinity": {
+      "early_morning": 0.25,
+      "morning": 0.2,
+      "noon": 0.55,
+      "afternoon": 0.85,
+      "evening": 1.0,
+      "night": 0.55,
+      "midnight": 0.35,
+      "latenight": 0.3
+    }
+  },
+  {
+    "id": "pork_fried_rice",
+    "name": "Pork fried rice",
+    "ingredients": ["pork", "rice", "onion", "garlic", "cabbage"],
+    "cook_minutes": 20,
+    "meal_periods": ["evening"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.7,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.15,
+      "noon": 0.35,
+      "afternoon": 0.5,
+      "evening": 1.0,
+      "night": 0.5,
+      "midnight": 0.3,
+      "latenight": 0.25
+    }
+  },
+  {
+    "id": "beef_rice_bowl",
+    "name": "Beef rice bowl",
+    "ingredients": ["beef", "rice", "broccoli", "garlic", "onion"],
+    "cook_minutes": 25,
+    "meal_periods": ["evening", "night"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.8,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.15,
+      "noon": 0.4,
+      "afternoon": 0.55,
+      "evening": 1.0,
+      "night": 0.9,
+      "midnight": 0.4,
+      "latenight": 0.3
+    }
+  },
+  {
+    "id": "lamb_pilaf",
+    "name": "Lamb pilaf",
+    "ingredients": ["lamb", "rice", "onion", "carrot", "garlic"],
+    "cook_minutes": 40,
+    "meal_periods": ["evening"],
+    "low_sugar": true,
+    "low_sodium": false,
+    "popularity": 0.35,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.1,
+      "noon": 0.25,
+      "afternoon": 0.4,
+      "evening": 1.0,
+      "night": 0.45,
+      "midnight": 0.2,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "goat_curry",
+    "name": "Goat curry",
+    "ingredients": ["goat", "rice", "onion", "tomato", "ginger", "chili", "garlic", "eggplant"],
+    "cook_minutes": 45,
+    "meal_periods": ["evening", "night"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.3,
+    "time_affinity": {
+      "early_morning": 0.1,
+      "morning": 0.1,
+      "noon": 0.3,
+      "afternoon": 0.45,
+      "evening": 1.0,
+      "night": 0.85,
+      "midnight": 0.25,
+      "latenight": 0.2
+    }
+  },
+  {
+    "id": "chicken_pasta",
+    "name": "Chicken pasta",
+    "ingredients": ["chicken", "pasta", "tomato", "onion", "garlic"],
+    "cook_minutes": 25,
+    "meal_periods": ["noon", "evening"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.75,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.15,
+      "noon": 0.9,
+      "afternoon": 0.6,
+      "evening": 1.0,
+      "night": 0.45,
+      "midnight": 0.2,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "beef_bolognese",
+    "name": "Beef bolognese",
+    "ingredients": ["beef", "pasta", "tomato", "onion", "carrot", "garlic"],
+    "cook_minutes": 35,
+    "meal_periods": ["evening"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.7,
+    "time_affinity": {
+      "early_morning": 0.1,
+      "morning": 0.1,
+      "noon": 0.4,
+      "afternoon": 0.5,
+      "evening": 1.0,
+      "night": 0.5,
+      "midnight": 0.2,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "turkey_pasta_salad",
+    "name": "Turkey pasta salad",
+    "ingredients": ["turkey", "pasta", "cucumber", "tomato", "lettuce", "lemon"],
+    "cook_minutes": 15,
+    "meal_periods": ["noon", "afternoon"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.45,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.2,
+      "noon": 1.0,
+      "afternoon": 0.9,
+      "evening": 0.35,
+      "night": 0.2,
+      "midnight": 0.1,
+      "latenight": 0.1
+    }
+  },
+  {
+    "id": "pork_noodles",
+    "name": "Pork noodles",
+    "ingredients": ["pork", "pasta", "cabbage", "carrot", "garlic", "ginger"],
+    "cook_minutes": 18,
+    "meal_periods": ["evening", "night"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.5,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.1,
+      "noon": 0.35,
+      "afternoon": 0.5,
+      "evening": 1.0,
+      "night": 0.85,
+      "midnight": 0.35,
+      "latenight": 0.3
+    }
+  },
+  {
+    "id": "chicken_potato_skillet",
+    "name": "Chicken potato skillet",
+    "ingredients": ["chicken", "potato", "onion", "bell_pepper"],
+    "cook_minutes": 22,
+    "meal_periods": ["afternoon", "evening"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.65,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.35,
+      "noon": 0.45,
+      "afternoon": 0.9,
+      "evening": 1.0,
+      "night": 0.4,
+      "midnight": 0.2,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "lamb_roast_potato",
+    "name": "Lamb roast potato",
+    "ingredients": ["lamb", "potato", "onion", "garlic", "herbs"],
+    "cook_minutes": 50,
+    "meal_periods": ["evening"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.25,
+    "time_affinity": {
+      "early_morning": 0.1,
+      "morning": 0.1,
+      "noon": 0.2,
+      "afternoon": 0.35,
+      "evening": 1.0,
+      "night": 0.4,
+      "midnight": 0.15,
+      "latenight": 0.1
+    }
+  },
+  {
+    "id": "flour_flatbread_chicken",
+    "name": "Chicken flatbread",
+    "ingredients": ["chicken", "flour", "onion", "tomato", "herbs"],
+    "cook_minutes": 30,
+    "meal_periods": ["noon", "afternoon"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.4,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.2,
+      "noon": 1.0,
+      "afternoon": 0.85,
+      "evening": 0.45,
+      "night": 0.2,
+      "midnight": 0.1,
+      "latenight": 0.1
+    }
+  },
+  {
+    "id": "vegetable_soup",
+    "name": "Vegetable soup",
+    "ingredients": ["tomato", "celery", "onion", "carrot", "potato", "zucchini", "cauliflower"],
+    "cook_minutes": 25,
+    "meal_periods": ["noon", "evening", "night"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.6,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.2,
+      "noon": 0.8,
+      "afternoon": 0.55,
+      "evening": 1.0,
+      "night": 0.85,
+      "midnight": 0.3,
+      "latenight": 0.2
+    }
+  },
+  {
+    "id": "chicken_soup",
+    "name": "Chicken soup",
+    "ingredients": ["chicken", "celery", "onion", "carrot", "garlic"],
+    "cook_minutes": 30,
+    "meal_periods": ["noon", "evening", "night"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.72,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.25,
+      "noon": 0.75,
+      "afternoon": 0.5,
+      "evening": 1.0,
+      "night": 0.9,
+      "midnight": 0.35,
+      "latenight": 0.25
+    }
+  },
+  {
+    "id": "alligator_stew",
+    "name": "Alligator stew",
+    "ingredients": ["alligator", "onion", "celery", "tomato", "rice"],
+    "cook_minutes": 50,
+    "meal_periods": ["evening", "night"],
+    "low_sugar": true,
+    "low_sodium": false,
+    "popularity": 0.12,
+    "time_affinity": {
+      "early_morning": 0.1,
+      "morning": 0.1,
+      "noon": 0.2,
+      "afternoon": 0.3,
+      "evening": 1.0,
+      "night": 0.8,
+      "midnight": 0.2,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "beef_stir_fry",
+    "name": "Beef stir fry",
+    "ingredients": ["beef", "broccoli", "bell_pepper", "garlic", "ginger", "rice", "green_bean"],
+    "cook_minutes": 18,
+    "meal_periods": ["evening"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.85,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.15,
+      "noon": 0.4,
+      "afternoon": 0.6,
+      "evening": 1.0,
+      "night": 0.55,
+      "midnight": 0.3,
+      "latenight": 0.25
+    }
+  },
+  {
+    "id": "pork_cabbage_stir_fry",
+    "name": "Pork cabbage stir fry",
+    "ingredients": ["pork", "cabbage", "garlic", "ginger", "rice"],
+    "cook_minutes": 15,
+    "meal_periods": ["evening", "latenight"],
+    "low_sugar": false,
+    "low_sodium": false,
+    "popularity": 0.5,
+    "time_affinity": {
+      "early_morning": 0.2,
+      "morning": 0.1,
+      "noon": 0.3,
+      "afternoon": 0.45,
+      "evening": 0.95,
+      "night": 0.6,
+      "midnight": 0.7,
+      "latenight": 1.0
+    }
+  },
+  {
+    "id": "midnight_chicken_rice",
+    "name": "Midnight chicken rice",
+    "ingredients": ["chicken", "rice", "onion"],
+    "cook_minutes": 12,
+    "meal_periods": ["evening", "night", "midnight", "latenight"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.4,
+    "time_affinity": {
+      "early_morning": 0.35,
+      "morning": 0.15,
+      "noon": 0.3,
+      "afternoon": 0.4,
+      "evening": 0.7,
+      "night": 1.0,
+      "midnight": 1.0,
+      "latenight": 0.95
+    }
+  },
+  {
+    "id": "kale_pasta",
+    "name": "Kale pasta",
+    "ingredients": ["pasta", "kale", "garlic", "tomato", "onion"],
+    "cook_minutes": 20,
+    "meal_periods": ["noon", "evening"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.35,
+    "time_affinity": {
+      "early_morning": 0.15,
+      "morning": 0.15,
+      "noon": 1.0,
+      "afternoon": 0.6,
+      "evening": 0.9,
+      "night": 0.4,
+      "midnight": 0.15,
+      "latenight": 0.15
+    }
+  },
+  {
+    "id": "alligator_potato",
+    "name": "Alligator potato",
+    "ingredients": ["alligator", "potato", "onion", "celery", "garlic"],
+    "cook_minutes": 35,
+    "meal_periods": ["evening"],
+    "low_sugar": true,
+    "low_sodium": true,
+    "popularity": 0.1,
+    "time_affinity": {
+      "early_morning": 0.1,
+      "morning": 0.1,
+      "noon": 0.2,
+      "afternoon": 0.3,
+      "evening": 1.0,
+      "night": 0.4,
+      "midnight": 0.15,
+      "latenight": 0.1
+    }
+  }
+]
